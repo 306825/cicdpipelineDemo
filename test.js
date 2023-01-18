@@ -22,6 +22,7 @@ describe('simple Api', ()=>{
         superagent.get(URL_ROOT).end((err, res)=>{
             //assert.ifError(err);
             assert.equal(1, 1);
+            assert.equal(2,2);
             done();
         })
     });
